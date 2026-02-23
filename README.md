@@ -26,3 +26,20 @@ Push your commits onto the develop branch:
 ```
 git push origin develop
 ```
+
+## Using the virtual environment (venv)
+
+Activate the venv
+```
+source venv/bin/activate
+```
+
+Generate requirements.txt
+```
+pip freeze > requirements.txt
+```
+
+Download packages from requirements.txt
+```
+pip install -r requirements.txt
+```
