@@ -29,10 +29,23 @@ git push origin develop
 
 ## Using the virtual environment (venv)
 
+Create venv
+```
+python -m venv myenv
+```
+
 Activate the venv
 ```
 source venv/bin/activate
 ```
+
+Register kernel with Jupyter
+```
+pip install ipykernel
+python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
+```
+
+### Requirements
 
 Generate requirements.txt
 ```
