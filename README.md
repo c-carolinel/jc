@@ -42,7 +42,7 @@ source venv/bin/activate
 Register kernel with Jupyter
 ```
 pip install ipykernel
-python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
+python -m ipykernel install --user --name=venv --display-name="Neuroquantum"
 ```
 
 ### Requirements
