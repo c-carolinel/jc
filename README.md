@@ -57,3 +57,17 @@ Download packages from requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
+### D-Wave Setup
+
+Log in to Leap dashboard and create API token
+
+Configure access
+```
+dwave config create
+```
+
+Validate setup by listing available solvers
+```
+dwave ping
+```
