@@ -37,6 +37,7 @@ python -m venv myenv
 Activate the venv
 ```
 source venv/bin/activate
+.\venv\Scripts\Activate.ps1 # powershell
 ```
 
 Register kernel with Jupyter
