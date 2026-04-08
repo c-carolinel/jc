@@ -37,6 +37,7 @@ python -m venv myenv
 Activate the venv
 ```
 source venv/bin/activate
+.\venv\Scripts\Activate.ps1 # powershell
 ```
 
 Register kernel with Jupyter
@@ -55,4 +56,18 @@ pip freeze > requirements.txt
 Download packages from requirements.txt
 ```
 pip install -r requirements.txt
+```
+
+### D-Wave Setup
+
+Log in to Leap dashboard and create API token
+
+Configure access
+```
+dwave config create
+```
+
+Validate setup by listing available solvers
+```
+dwave ping
 ```
