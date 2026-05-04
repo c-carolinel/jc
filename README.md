@@ -1,4 +1,4 @@
-# Applying quantum techniques on calcium imaging data to uncover co-activation patterns and community structure within neurons
+# Quantum annealing for high-modularity community detection in neuronal calcium imaging data
 
 ## Getting started
 
