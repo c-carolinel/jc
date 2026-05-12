@@ -1,13 +1,7 @@
 import json
 import numpy as np
 import pandas as pd
-import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-import matplotlib.gridspec as gridspec
-from matplotlib.colors import ListedColormap
 from pathlib import Path
-import seaborn as sns
 import plotly.express as px
 
 # File path
